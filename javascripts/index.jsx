@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import HelloWorld from './hello_world.jsx'
+import TodoApp from './todo_app.jsx'
 
-ReactDOM.render(<HelloWorld name="Suzanne" />, document.getElementById('content'))
+ReactDOM.render(<TodoApp />, document.getElementById('content'))
